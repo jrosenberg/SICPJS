@@ -27,6 +27,7 @@ show(beside(rcross, sail));
 // should show rcross on left
 //      and sail on right
 
+
 const my_quilt =
    stackn(5,
         quarter_turn_right(
@@ -56,3 +57,5 @@ show(make_cross(make_cross(heart)));
 //stack_frac(r, heart, sail)
 
 show(stack_frac(87 / 100, heart, sail));
+
+show(heart);
