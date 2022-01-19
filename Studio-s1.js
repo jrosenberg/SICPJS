@@ -63,3 +63,9 @@ function other_combos(order) {
 
 display(other_combos(5432));
 display(other_combos(543));
+
+function other_combos2(order) {
+    return math_floor(order/10);
+}
+
+display(other_combos2(5432));
