@@ -34,3 +34,32 @@ display(combo_price(5));
 
 // Qn 5
 
+function empty_order() {
+    return 0;
+}
+display(empty_order());
+
+// Qn 6
+
+function add_to_order(order, combo) {
+    return order * 10 + combo;
+}
+
+display(add_to_order(1,2));
+display(add_to_order(23,4));
+
+// Qn 7
+function last_combo(order) {
+    return (order % 10);
+}
+
+display(last_combo(321));
+display(last_combo(3426));
+
+// Qn 8
+function other_combos(order) {
+    return (order - last_combo(order)) / 10;
+}
+
+display(other_combos(5432));
+display(other_combos(543));
